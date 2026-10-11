@@ -1,0 +1,11 @@
+column,description,unit,role,source_column
+point_id,stable public operating point identifier,none,identifier,generated
+rpm_level,engine speed rounded to the nearest rpm,rpm,held out speed grouping,Engine Speed
+Engine Speed,engine speed,rpm,trusted operating condition,Engine Speed
+Torque,engine torque,N.m,trusted operating condition,Torque
+T_IM,intake manifold temperature,degC,monitored sensor,T_IM
+P_IM,intake manifold pressure,bar,monitored sensor,P_IM
+EGR_Rate,exhaust gas recirculation rate,%,monitored sensor,EGR_Rate
+MF_IA,intake air mass flow,kg/h,monitored sensor,MF_IA
+NOx_EO,engine out nitrogen oxide concentration,ppm,monitored sensor,NOx_EO
+MF_FUEL,fuel mass flow,kg/h,fuel extension monitored sensor,MF_FUEL

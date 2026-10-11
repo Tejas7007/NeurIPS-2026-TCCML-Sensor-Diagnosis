@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="772" viewBox="0 0 1000 772" role="img" aria-labelledby="title description">
+<title id="title">Reliable Sensor Diagnosis for Fuel and Emissions Monitoring in Heavy-Duty Diesel Vehicles</title>
+<desc id="description">Engine readings are checked against learned healthy relationships. Replacing one sensor reading at a time tests which sensor explains the disagreement. One experiment combines those tests across operating points, predicts the fault type, and decides whether to report a diagnosis. The other selects a sensor at each point, decides whether to correct fuel, and calculates combustion carbon dioxide from corrected or unchanged fuel readings.</desc>
+<style>text {font-family:Arial,Helvetica,sans-serif} @media (prefers-reduced-motion:reduce) {.moving {display:none}}</style>
+<defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M 0 0 L 6 3 L 0 6" fill="#7b858b"/></marker><marker id="mint-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M 0 0 L 6 3 L 0 6" fill="#426079"/></marker><marker id="blue-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M 0 0 L 6 3 L 0 6" fill="#8a693f"/></marker></defs>
+<rect x="1" y="1" width="998" height="770" rx="24" fill="#f5f3ed" stroke="#d1cec5"/>
+<text x="44" y="39" font-size="11" fill="#4e5960" font-weight="500" letter-spacing="2.3">MACHINE LEARNING FOR CLIMATE</text>
+<text x="43" y="87" font-size="39" fill="#283239" font-weight="700">Reliable sensor diagnosis</text>
+<text x="45" y="117" font-size="19" fill="#4e5960" font-weight="400">Fuel and emissions monitoring in heavy-duty diesel vehicles</text>
+<rect x="822" y="37" width="134" height="29" rx="14.5" fill="#e7e4dc"/>
+<text x="840" y="56" font-size="12" fill="#4e5960" font-weight="500">NeurIPS 2026</text>
+<rect x="44" y="140" width="912" height="42" rx="10" fill="#eceae3" stroke="#d8d5cc"/>
+<text x="60" y="166" font-size="15" fill="#4e5960" font-weight="400">Learn healthy relationships from training readings and choose thresholds on development data</text>
+<rect x="44" y="208" width="280" height="126" rx="14" fill="#fdfcf9" stroke="#d3d0c7"/>
+<rect class="moving" x="44" y="208" width="280" height="126" rx="14" fill="none" stroke="#667882" stroke-width="1.7" opacity=".2"><animate attributeName="opacity" values=".08;.35;.08;.08" keyTimes="0;.18;.36;1" dur="18s" begin="0s" repeatCount="indefinite"/></rect>
+<text x="62" y="234" font-size="11" fill="#4e5960" font-weight="700" letter-spacing="1.4">01</text>
+<text x="62" y="261" font-size="20" fill="#283239" font-weight="700">Engine measurements</text>
+<text x="62" y="287" font-size="15.5" fill="#4e5960" font-weight="400">Engine speed and torque</text>
+<text x="62" y="307" font-size="15.5" fill="#4e5960" font-weight="400">alongside the sensor readings</text>
+<rect x="360" y="208" width="280" height="126" rx="14" fill="#fdfcf9" stroke="#d3d0c7"/>
+<rect class="moving" x="360" y="208" width="280" height="126" rx="14" fill="none" stroke="#667882" stroke-width="1.7" opacity=".2"><animate attributeName="opacity" values=".08;.35;.08;.08" keyTimes="0;.18;.36;1" dur="18s" begin="2s" repeatCount="indefinite"/></rect>
+<text x="378" y="234" font-size="11" fill="#4e5960" font-weight="700" letter-spacing="1.4">02</text>
+<text x="378" y="261" font-size="20" fill="#283239" font-weight="700">Check prediction errors</text>
+<text x="378" y="287" font-size="15.5" fill="#4e5960" font-weight="400">Compare sensor readings with</text>
+<text x="378" y="307" font-size="15.5" fill="#4e5960" font-weight="400">predictions of healthy values</text>
+<text x="378" y="324" font-size="12.5" fill="#667882" font-weight="400">Check engine speed and torque</text>
+<rect x="676" y="208" width="280" height="126" rx="14" fill="#fdfcf9" stroke="#d3d0c7"/>
+<rect class="moving" x="676" y="208" width="280" height="126" rx="14" fill="none" stroke="#667882" stroke-width="1.7" opacity=".2"><animate attributeName="opacity" values=".08;.35;.08;.08" keyTimes="0;.18;.36;1" dur="18s" begin="4s" repeatCount="indefinite"/></rect>
+<text x="694" y="234" font-size="11" fill="#4e5960" font-weight="700" letter-spacing="1.4">03</text>
+<text x="694" y="261" font-size="20" fill="#283239" font-weight="700">Test sensor replacements</text>
+<text x="694" y="287" font-size="15.5" fill="#4e5960" font-weight="400">Estimate one reading at a time</text>
+<text x="694" y="307" font-size="15.5" fill="#4e5960" font-weight="400">and check whether replacing it</text>
+<text x="694" y="327" font-size="15.5" fill="#4e5960" font-weight="400">reduces the prediction errors</text>
+<path d="M 326 271 H 355" fill="none" stroke="#7b858b" stroke-width="1.8" opacity=".7" marker-end="url(#arrow)"/>
+<circle class="moving" r="3.6" fill="#7b858b" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.92;1" dur="8s" begin="0s" repeatCount="indefinite"/><animateMotion dur="8s" begin="0s" repeatCount="indefinite" path="M 326 271 H 355"/></circle>
+<path d="M 642 271 H 671" fill="none" stroke="#7b858b" stroke-width="1.8" opacity=".7" marker-end="url(#arrow)"/>
+<circle class="moving" r="3.6" fill="#7b858b" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.92;1" dur="8s" begin="2s" repeatCount="indefinite"/><animateMotion dur="8s" begin="2s" repeatCount="indefinite" path="M 642 271 H 671"/></circle>
+<path d="M 816 334 V 351 Q 816 358 807 358 H 26 Q 18 358 18 366 V 658" fill="none" stroke="#929a9d" stroke-width="1.8"/>
+<circle class="moving" r="3.4" fill="#52646e" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.92;1" dur="15s" repeatCount="indefinite"/><animateMotion dur="15s" repeatCount="indefinite" path="M 816 334 V 351 Q 816 358 807 358 H 26 Q 18 358 18 366 V 658"/></circle>
+<text x="44" y="389" font-size="12" fill="#4e5960" font-weight="700" letter-spacing="1.7">SENSOR DIAGNOSIS</text>
+<text x="282" y="389" font-size="14" fill="#4e5960" font-weight="400">Groups of operating points</text>
+<rect x="44" y="406" width="280" height="134" rx="14" fill="#fdfcf9" stroke="#d3d0c7"/>
+<rect class="moving" x="44" y="406" width="280" height="134" rx="14" fill="none" stroke="#426079" stroke-width="1.7" opacity=".2"><animate attributeName="opacity" values=".08;.35;.08;.08" keyTimes="0;.18;.36;1" dur="18s" begin="6s" repeatCount="indefinite"/></rect>
+<rect x="62" y="422" width="22" height="3" rx="1.5" fill="#426079"/>
+<text x="62" y="453" font-size="19" fill="#283239" font-weight="700">Select the sensor</text>
+<text x="62" y="480" font-size="15.5" fill="#4e5960" font-weight="400">Combine replacement tests</text>
+<text x="62" y="500" font-size="15.5" fill="#4e5960" font-weight="400">across operating points</text>
+<rect x="360" y="406" width="280" height="134" rx="14" fill="#fdfcf9" stroke="#d3d0c7"/>
+<rect class="moving" x="360" y="406" width="280" height="134" rx="14" fill="none" stroke="#426079" stroke-width="1.7" opacity=".2"><animate attributeName="opacity" values=".08;.35;.08;.08" keyTimes="0;.18;.36;1" dur="18s" begin="8s" repeatCount="indefinite"/></rect>
+<rect x="378" y="422" width="22" height="3" rx="1.5" fill="#426079"/>
+<text x="378" y="453" font-size="19" fill="#283239" font-weight="700">Predict the fault type</text>
+<text x="378" y="480" font-size="15.5" fill="#4e5960" font-weight="400">Use the selected sensor</text>
+<text x="378" y="500" font-size="15.5" fill="#4e5960" font-weight="400">and the group measurements</text>
+<rect x="676" y="406" width="280" height="134" rx="14" fill="#fdfcf9" stroke="#d3d0c7"/>
+<rect class="moving" x="676" y="406" width="280" height="134" rx="14" fill="none" stroke="#426079" stroke-width="1.7" opacity=".2"><animate attributeName="opacity" values=".08;.35;.08;.08" keyTimes="0;.18;.36;1" dur="18s" begin="10s" repeatCount="indefinite"/></rect>
+<rect x="694" y="422" width="22" height="3" rx="1.5" fill="#426079"/>
+<text x="694" y="453" font-size="19" fill="#283239" font-weight="700">Decide whether to report</text>
+<text x="694" y="480" font-size="15.5" fill="#4e5960" font-weight="400">Compare estimated correctness</text>
+<text x="694" y="500" font-size="15.5" fill="#4e5960" font-weight="400">with its chosen threshold</text>
+<text x="694" y="523" font-size="12.5" fill="#426079" font-weight="400">Diagnosis or no report</text>
+<path d="M 18 473 H 39" fill="none" stroke="#426079" stroke-width="1.8" opacity=".7" marker-end="url(#mint-arrow)"/>
+<circle class="moving" r="3.6" fill="#426079" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.92;1" dur="12s" begin="4s" repeatCount="indefinite"/><animateMotion dur="12s" begin="4s" repeatCount="indefinite" path="M 18 473 H 39"/></circle>
+<path d="M 326 473 H 355" fill="none" stroke="#426079" stroke-width="1.8" opacity=".7" marker-end="url(#mint-arrow)"/>
+<circle class="moving" r="3.6" fill="#426079" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.92;1" dur="9s" begin="6s" repeatCount="indefinite"/><animateMotion dur="9s" begin="6s" repeatCount="indefinite" path="M 326 473 H 355"/></circle>
+<path d="M 642 473 H 671" fill="none" stroke="#426079" stroke-width="1.8" opacity=".7" marker-end="url(#mint-arrow)"/>
+<circle class="moving" r="3.6" fill="#426079" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.92;1" dur="9s" begin="8s" repeatCount="indefinite"/><animateMotion dur="9s" begin="8s" repeatCount="indefinite" path="M 642 473 H 671"/></circle>
+<text x="44" y="575" font-size="12" fill="#4e5960" font-weight="700" letter-spacing="1.7">FUEL CORRECTION</text>
+<text x="282" y="575" font-size="14" fill="#4e5960" font-weight="400">Individual operating points</text>
+<rect x="44" y="592" width="280" height="132" rx="14" fill="#fdfcf9" stroke="#d3d0c7"/>
+<rect class="moving" x="44" y="592" width="280" height="132" rx="14" fill="none" stroke="#8a693f" stroke-width="1.7" opacity=".2"><animate attributeName="opacity" values=".08;.35;.08;.08" keyTimes="0;.18;.36;1" dur="18s" begin="6s" repeatCount="indefinite"/></rect>
+<rect x="62" y="608" width="22" height="3" rx="1.5" fill="#8a693f"/>
+<text x="62" y="639" font-size="19" fill="#283239" font-weight="700">Select the sensor</text>
+<text x="62" y="666" font-size="15.5" fill="#4e5960" font-weight="400">At each operating point</text>
+<text x="62" y="686" font-size="15.5" fill="#4e5960" font-weight="400">compare the replacement tests</text>
+<rect x="360" y="592" width="280" height="132" rx="14" fill="#fdfcf9" stroke="#d3d0c7"/>
+<rect class="moving" x="360" y="592" width="280" height="132" rx="14" fill="none" stroke="#8a693f" stroke-width="1.7" opacity=".2"><animate attributeName="opacity" values=".08;.35;.08;.08" keyTimes="0;.18;.36;1" dur="18s" begin="8s" repeatCount="indefinite"/></rect>
+<rect x="378" y="608" width="22" height="3" rx="1.5" fill="#8a693f"/>
+<text x="378" y="639" font-size="19" fill="#283239" font-weight="700">Decide whether to correct</text>
+<text x="378" y="666" font-size="15.5" fill="#4e5960" font-weight="400">Check the alarm, speed and torque</text>
+<text x="378" y="686" font-size="15.5" fill="#4e5960" font-weight="400">and the fuel-selection score</text>
+<text x="378" y="707" font-size="12.5" fill="#8a693f" font-weight="400">Keep or replace the fuel reading</text>
+<rect x="676" y="592" width="280" height="132" rx="14" fill="#fdfcf9" stroke="#d3d0c7"/>
+<rect class="moving" x="676" y="592" width="280" height="132" rx="14" fill="none" stroke="#8a693f" stroke-width="1.7" opacity=".2"><animate attributeName="opacity" values=".08;.35;.08;.08" keyTimes="0;.18;.36;1" dur="18s" begin="10s" repeatCount="indefinite"/></rect>
+<rect x="694" y="608" width="22" height="3" rx="1.5" fill="#8a693f"/>
+<text x="694" y="639" font-size="19" fill="#283239" font-weight="700">Calculate combustion CO₂</text>
+<text x="694" y="666" font-size="15.5" fill="#4e5960" font-weight="400">Use corrected or unchanged fuel</text>
+<text x="694" y="686" font-size="15.5" fill="#4e5960" font-weight="400">to estimate combustion emissions</text>
+<path d="M 18 658 H 39" fill="none" stroke="#8a693f" stroke-width="1.8" opacity=".7" marker-end="url(#blue-arrow)"/>
+<circle class="moving" r="3.6" fill="#8a693f" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.92;1" dur="12s" begin="4s" repeatCount="indefinite"/><animateMotion dur="12s" begin="4s" repeatCount="indefinite" path="M 18 658 H 39"/></circle>
+<path d="M 326 658 H 355" fill="none" stroke="#8a693f" stroke-width="1.8" opacity=".7" marker-end="url(#blue-arrow)"/>
+<circle class="moving" r="3.6" fill="#8a693f" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.92;1" dur="9s" begin="6s" repeatCount="indefinite"/><animateMotion dur="9s" begin="6s" repeatCount="indefinite" path="M 326 658 H 355"/></circle>
+<path d="M 642 658 H 671" fill="none" stroke="#8a693f" stroke-width="1.8" opacity=".7" marker-end="url(#blue-arrow)"/>
+<circle class="moving" r="3.6" fill="#8a693f" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.92;1" dur="9s" begin="8s" repeatCount="indefinite"/><animateMotion dur="9s" begin="8s" repeatCount="indefinite" path="M 642 658 H 671"/></circle>
+<text x="44" y="751" font-size="13" fill="#4e5960" font-weight="400">Each experiment suite fits its own models and decision thresholds</text>
+</svg>
